@@ -1,0 +1,61 @@
+/*Navigation bar stlles*/
+
+.nav-bar > .about-page{
+    color:#8a8a8a;
+    text-decoration: none;
+    transition:color 0.5s;
+    display:flex;
+    justify-content: space-between;
+    text-decoration:rgb(179, 120, 179);
+    transition:color 0.5s;
+   }
+   .nav-bar > .about-page >.about-link:hover{
+    border-bottom:1px solid rgb(180, 62, 226);
+   }
+
+/*form styles*/
+
+#title {
+    font-style: oblique;
+    font-size: 75px;
+    font-family: 'PT Sans Narrow';
+    text-align: center;
+   }
+   .form{
+       text-align:center;
+   }
+  #description {
+    font-style: italic;
+    font-size: 30px;
+    position: relative;
+    text-align:center;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgba(152, 45, 173, 0.514);
+   }
+   body {
+    background-image: linear-gradient(transparentize(black,0.2) 0%, transparentize(black, 0.5) 100%);/*Thank you Jeff Summers!*/
+    background-image: url("# image=background");
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: top;
+    color: rgb(255, 0, 242);
+    margin: 0px;
+    padding: 0px;
+   }
+   form {
+    text-align: center;
+    margin: 10px;
+    color: black;
+   }
+   p2 {
+    font-size: 20px;
+   }
+   p3 {
+    font-size: 20px;
+   p4 {
+    font-size: 20px;
+   }
+  
